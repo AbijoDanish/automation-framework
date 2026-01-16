@@ -74,7 +74,7 @@ public class BaseMethods {
 		String dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("ddMMyyyy_hhmmss"));
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File ss = ts.getScreenshotAs(OutputType.FILE);		
-		FileUtils.copyFile(ss,new File("C:\\Users\\Baskar A\\eclipse-workspace\\FrameworkGreens\\target\\"+dateTime+".png"));
+		FileUtils.copyFile(ss,new File("C:\\Users\\Baskar A\\eclipse-workspace\\FrameworkGreens\\target\\Screenshots\\"+dateTime+".png"));
 	}
 	
 	public void dropdownSelect(WebElement ele, String by, String data) {
@@ -90,7 +90,7 @@ public class BaseMethods {
 			select.selectByIndex(n);
 		}
 	}
-	
+	// Login test enhanced with TestNG
 	public void quitDriver() {
 		driver.quit();
 	}
