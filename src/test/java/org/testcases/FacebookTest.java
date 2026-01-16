@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.baseclasses.BaseMethods;
 import org.junit.*;
 
-public class Facebook extends BaseMethods {
+public class FacebookTest extends BaseMethods {
 	static BaseMethods baseMethods;
 	
 	@BeforeClass
