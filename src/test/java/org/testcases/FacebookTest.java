@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.baseclasses.BaseMethods;
 import org.junit.*;
 
-public class Facebook extends BaseMethods {
+public class FacebookTest extends BaseMethods {
 	static BaseMethods baseMethods;
 	
 	@BeforeClass
@@ -49,6 +49,8 @@ public class Facebook extends BaseMethods {
 		baseMethods.passValueInTextBox(baseMethods.findElement("id", "password_step_input"), "agewg");
 		baseMethods.clickButton(baseMethods.findElement("xpath", "//button[@name='websubmit']"));
 		Thread.sleep(2000);
+		//change
+		//change 2
 	}
 	
 }
