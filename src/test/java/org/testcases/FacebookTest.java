@@ -49,6 +49,7 @@ public class FacebookTest extends BaseMethods {
 		baseMethods.passValueInTextBox(baseMethods.findElement("id", "password_step_input"), "agewg");
 		baseMethods.clickButton(baseMethods.findElement("xpath", "//button[@name='websubmit']"));
 		Thread.sleep(2000);
+		//change
 	}
 	
 }
