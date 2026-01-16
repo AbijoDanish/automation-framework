@@ -50,6 +50,7 @@ public class FacebookTest extends BaseMethods {
 		baseMethods.clickButton(baseMethods.findElement("xpath", "//button[@name='websubmit']"));
 		Thread.sleep(2000);
 		//change
+		//change 2
 	}
 	
 }
